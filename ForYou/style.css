@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('mainbg.jpg');
+}
+
+.container {
+    background-color: #FDB0C0;
+    text-align: center;
+    color: #A3386C;
+    width: 400px;
+    height: auto;
+    font-size: 18px;
+    margin: auto;
+    padding: 18px;
+    border-radius: 5px;
+    margin-top: 30vh;
+    box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
+    font-weight: 100;
+    letter-spacing: 0.048em;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+.container:hover{
+    transform: scale(1.1);
+}
+a{
+    color: #A3386C;
+    text-decoration: none;
+}
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    color: #A3386C;
+    /* margin: 3px; */
+    position: relative;
+    top: 96px;
+    left: 11px;
+}
